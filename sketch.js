@@ -9,8 +9,7 @@ function setup(){
     var canvas = createCanvas(1200,400);
     engine = Engine.create();
     world = engine.world;
-
-   box1 = new Box(200,300,50,50);
+box1 = new Box(200,300,50,50);
     box2 = new Box(240,100,50,100);
     ground = new Ground(600,height,1200,20)
 }
